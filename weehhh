@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echelonix | Retention-Focused Video Editing for Faceless YouTube Channels</title>
+    <!-- Tailwind CSS for modern, fast styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0B0F19',
+                            surface: '#161B26',
+                            accent: '#3B82F6', // High-converting blue
+                            accentHover: '#2563EB',
+                            textMuted: '#9CA3AF'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-dark text-white font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-brand-dark/80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-2xl font-black tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
+                ECHELONIX
+            </a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+                <a href="#services" class="hover:text-white transition">Services</a>
+                <a href="#work" class="hover:text-white transition">Our Work</a>
+                <a href="#process" class="hover:text-white transition">Process</a>
+                <a href="#pricing" class="hover:text-white transition">Pricing</a>
+                <a href="#book" class="bg-brand-accent hover:bg-brand-accentHover text-white px-5 py-2.5 rounded-lg font-semibold transition shadow-lg shadow-brand-accent/20">
+                    Book a Call
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-36 pb-20 px-6 max-w-5xl mx-auto text-center min-h-[85vh] flex flex-col justify-center items-center">
+        <div class="inline-flex items-center gap-2 bg-gray-900 border border-gray-800 rounded-full px-4 py-1.5 text-xs font-medium text-brand-accent mb-6">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            Accepting 3 New Channels This Month
+        </div>
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-[1.1]">
+            Faceless YouTube editing that <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-cyan-400">keeps viewers watching.</span>
+        </h1>
+        <p class="text-lg md:text-xl text-brand-textMuted max-w-2xl mx-auto mb-10">
+            We build retention engines for YouTube Automation channels. Get highly optimized scripts, strategic voiceovers, crisp pacing, and CTR-crushing thumbnails without ever managing a freelancer again.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto">
+            <a href="#book" class="bg-brand-accent hover:bg-brand-accentHover text-white px-8 py-4 rounded-xl font-bold text-lg transition shadow-xl shadow-brand-accent/20 text-center">
+                Book a Free Strategy Call
+            </a>
+            <a href="#work" class="bg-brand-surface hover:bg-gray-800 border border-gray-800 text-white px-8 py-4 rounded-xl font-bold text-lg transition text-center">
+                See Our Proof
+            </a>
+        </div>
+
+        <!-- Social Proof Bar -->
+        <div class="mt-20 border-t border-gray-900 pt-10 w-full">
+            <p class="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-6">Trusted by automated channels generating millions</p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center opacity-60 grayscale hover:grayscale-0 transition-all">
+                <div class="text-xl font-bold tracking-tight text-gray-400">10M+ VIEWS EDITED</div>
+                <div class="text-xl font-bold tracking-tight text-gray-400">500K+ SUBS GAINED</div>
+                <div class="text-xl font-bold tracking-tight text-gray-400">AVERAGE 55% AVD</div>
+                <div class="text-xl font-bold tracking-tight text-gray-400">100% ON-TIME DELIVERY</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Snapshot -->
+    <section id="services" class="py-24 bg-brand-surface border-y border-gray-900 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Done-For-You Channel Growth</h2>
+                <p class="text-brand-textMuted">Stop treating video production like a puzzle. We handle the entire pipeline tailored directly to your specific algorithmic sub-niche.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Service 1 -->
+                <div class="p-8 bg-brand-dark/50 rounded-2xl border border-gray-800/50 hover:border-brand-accent/30 transition group">
+                    <div class="w-12 h-12 bg-brand-accent/10 rounded-xl flex items-center justify-center text-brand-accent mb-6 font-bold text-xl group-hover:bg-brand-accent group-hover:text-white transition">V</div>
+                    <h3 class="text-xl font-bold mb-2">Retention Editing</h3>
+                    <p class="text-sm text-brand-textMuted leading-relaxed">Aggressive pacing, calculated b-roll insertions, dynamic kinetic typography, and immersive spatial sound design built to capture attention.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="p-8 bg-brand-dark/50 rounded-2xl border border-gray-800/50 hover:border-brand-accent/30 transition group">
+                    <div class="w-12 h-12 bg-brand-accent/10 rounded-xl flex items-center justify-center text-brand-accent mb-6 font-bold text-xl group-hover:bg-brand-accent group-hover:text-white transition">T</div>
+                    <h3 class="text-xl font-bold mb-2">CTR Thumbnails</h3>
+                    <p class="text-sm text-brand-textMuted leading-relaxed">High-contrast, psychology-driven custom packaging built to stand out on mobile screens. Includes dynamic visual split variations.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="p-8 bg-brand-dark/50 rounded-2xl border border-gray-800/50 hover:border-brand-accent/30 transition group">
+                    <div class="w-12 h-12 bg-brand-accent/10 rounded-xl flex items-center justify-center text-brand-accent mb-6 font-bold text-xl group-hover:bg-brand-accent group-hover:text-white transition">S</div>
+                    <h3 class="text-xl font-bold mb-2">Niche Scriptwriting</h3>
+                    <p class="text-sm text-brand-textMuted leading-relaxed">Deep-dive research structures designed with highly critical hooks in the initial 30 seconds to slash initial video drop-off rates.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="p-8 bg-brand-accent/10 rounded-2xl border border-brand-accent/30 hover:border-brand-accent transition group">
+                    <div class="w-12 h-12 bg-brand-accent text-white rounded-xl flex items-center justify-center mb-6 font-bold text-xl">M</div>
+                    <h3 class="text-xl font-bold mb-2">Full Management</h3>
+                    <p class="text-sm text-brand-textMuted leading-relaxed">The ultimate hands-off scale system. Scripting, voiceover coordination, premium editing, graphic packages, and optimized direct uploads.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="work" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">Our Hard Proof</h2>
+            <p class="text-brand-textMuted">We don't just make things look pretty. We design visual engines that keep viewers glued to the screen.</p>
+        </div>
+        
+        <!-- Video Showcase Grid -->
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Video Item 1 -->
+            <div class="bg-brand-surface rounded-2xl overflow-hidden border border-gray-800">
+                <div class="aspect-video bg-gray-800 relative flex items-center justify-center">
+                    <!-- Placeholder: Replace src with your iframe embed or unbranded video link later -->
+                    <span class="text-xs text-gray-500 uppercase font-mono">[ Embed Luxury/Lifestyle Clip ]</span>
+                    <div class="absolute bottom-3 left-3 bg-brand-dark/90 px-3 py-1 rounded-md text-xs font-bold text-emerald-400 border border-gray-800">
+                        +58% Watch Time
+                    </div>
+                </div>
+                <div class="p-6">
+                    <span class="text-xs font-bold uppercase tracking-wider text-brand-accent">Luxury & Lifestyle</span>
+                    <h4 class="text-lg font-bold mt-1 mb-2">The Secret Economics of Ultra-Luxury</h4>
+                    <p class="text-sm text-brand-textMuted">Custom map animations, high-end b-roll curves, clean minimal typographic structures.</p>
+                </div>
+            </div>
+            <!-- Video Item 2 -->
+            <div class="bg-brand-surface rounded-2xl overflow-hidden border border-gray-800">
+                <div class="aspect-video bg-gray-800 relative flex items-center justify-center">
+                    <span class="text-xs text-gray-500 uppercase font-mono">[ Embed Scary Stories Clip ]</span>
+                    <div class="absolute bottom-3 left-3 bg-brand-dark/90 px-3 py-1 rounded-md text-xs font-bold text-emerald-400 border border-gray-800">
+                        420K+ Views
+                    </div>
+                </div>
+                <div class="p-6">
+                    <span class="text-xs font-bold uppercase tracking-wider text-brand-accent">Horror / Sci-Fi</span>
+                    <h4 class="text-lg font-bold mt-1 mb-2">3 Terrifying Deep Sea Encounters</h4>
+                    <p class="text-sm text-brand-textMuted">Immersive soundscapes, dynamic dark overlays, textured lighting adjustments to lock retention.</p>
+                </div>
+            </div>
+            <!-- Video Item 3 -->
+            <div class="bg-brand-surface rounded-2xl overflow-hidden border border-gray-800">
+                <div class="aspect-video bg-gray-800 relative flex items-center justify-center">
+                    <span class="text-xs text-gray-500 uppercase font-mono">[ Embed Reddit Stories Clip ]</span>
+                    <div class="absolute bottom-3 left-3 bg-brand-dark/90 px-3 py-1 rounded-md text-xs font-bold text-emerald-400 border border-gray-800">
+                        61% Avg. Retention
+                    </div>
+                </div>
+                <div class="p-6">
+                    <span class="text-xs font-bold uppercase tracking-wider text-brand-accent">Reddit Chronicles</span>
+                    <h4 class="text-lg font-bold mt-1 mb-2">My Boss Tried to Ruin My Life</h4>
+                    <p class="text-sm text-brand-textMuted">Fast-paced graphical popups, engaging kinetic captions, background game tracking sync.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="py-24 bg-brand-surface border-y border-gray-900 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Zero Friction Production</h2>
+                <p class="text-brand-textMuted">No messy Telegram chains, no missing deadlines, no ghosting. A system built for consistency.</p>
+            </div>
+            <div class="space-y-12 relative before:absolute before:inset-0 before:left-4 md:before:left-1/2 before:w-0.5 before:bg-gray-800">
+                <!-- Step 1 -->
+                <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between gap-6 md:gap-0">
+                    <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-brand-accent border-4 border-brand-surface flex items-center justify-center text-xs font-bold z-10">1</div>
+                    <div class="pl-12 md:pl-0 md:w-[45%] md:text-right">
+                        <h3 class="text-xl font-bold mb-1">Strategy Audit</h3>
+                        <p class="text-sm text-brand-textMuted">We schedule a quick call to map out your specific sub-niche algorithm parameters and identify exact pacing flaws in your previous uploads.</p>
+                    </div>
+                    <div class="hidden md:block w-[45%]"></div>
+                </div>
+                <!-- Step 2 -->
+                <div class="relative flex flex-col md:flex-row-reverse items-start md:items-center justify-between gap-6 md:gap-0">
+                    <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-brand-accent border-4 border-brand-surface flex items-center justify-center text-xs font-bold z-10">2</div>
+                    <div class="pl-12 md:pl-0 md:w-[45%] text-left">
+                        <h3 class="text-xl font-bold mb-1">Onboarding Asset Lock</h3>
+                        <p class="text-sm text-brand-textMuted">We build your custom brand asset toolkit: sound profile templates, color presets, visual dynamic assets, and target style guides to ensure look consistency.</p>
+                    </div>
+                    <div class="hidden md:block w-[45%]"></div>
+                </div>
+                <!-- Step 3 -->
+                <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between gap-6 md:gap-0">
+                    <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-brand-accent border-4 border-brand-surface flex items-center justify-center text-xs font-bold z-10">3</div>
+                    <div class="pl-12 md:pl-0 md:w-[45%] md:text-right">
+                        <h3 class="text-xl font-bold mb-1">Weekly Engine Loop</h3>
+                        <p class="text-sm text-brand-textMuted">Drop your continuous raw audio track or script specs into your dedicated workspace channel. Our integrated team outputs polished drafts within 48-72 hours.</p>
+                    </div>
+                    <div class="hidden md:block w-[45%]"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">Predictable Flat-Rate Retainers</h2>
+            <p class="text-brand-textMuted">Lock down your full content calendar. No hidden fees or unexpected production bills.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8 items-stretch">
+            <!-- Tier 1 -->
+            <div class="p-8 bg-brand-surface rounded-2xl border border-gray-800 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold uppercase tracking-wider text-gray-400 mb-2">Starter</h3>
+                    <div class="text-4xl font-black mb-4">Contact Us</div>
+                    <p class="text-sm text-brand-textMuted mb-6">Perfect for channels starting out or validating a brand new automation concept.</p>
+                    <ul class="space-y-3 text-sm border-t border-gray-800 pt-6">
+                        <li class="flex items-center gap-2 text-gray-300">✓ 4 Edited Videos / Month</li>
+                        <li class="flex items-center gap-2 text-gray-300">✓ Turnaround under 72h</li>
+                        <li class="flex items-center gap-2 text-gray-300">✓ 2 Revision Rounds / Video</li>
+                        <li class="flex items-center gap-2 text-gray-300">✓ Dedicated Frame.io Dashboard</li>
+                    </ul>
+                </div>
+                <a href="#book" class="mt-8 block w-full bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-xl text-center transition">Get Started</a>
+            </div>
+            <!-- Tier 2 (Highlighted) -->
+            <div class="p-8 bg-brand-surface rounded-2xl border-2 border-brand-accent flex flex-col justify-between relative shadow-2xl shadow-brand-accent/5">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-accent text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full">Most Popular</div>
+                <div>
+                    <h3 class="text-xl font-bold uppercase tracking-wider text-brand-accent mb-2">Growth</h3>
+                    <div class="text-4xl font-black mb-4">Contact Us</div>
+                    <p class="text-sm text-brand-textMuted mb-6">Designed to maintain hyper-aggressive upload schedules without dropping editing quality.</p>
+                    <ul class="space-y-3 text-sm border-t border-gray-800 pt-6">
+                        <li class="flex items-center gap-2 text-gray-300">✓ 8 Edited Videos / Month</li>
+                        <li class="flex items-center gap-2 text-gray-300">✓ Priority Turnaround</li>
+                        <li class="flex items-center gap-2 text-gray-300">✓ Unlimited Revisions</li>
+                        <li class="flex items-center gap-2 text-gray-300">✓ 4 Custom CTR Thumbnails Included</li>
+                        <li class="flex items-center gap-2 text-gray-300">✓ Dedicated Lead Editor Assignee</li>
+                    </ul>
+                </div>
+                <a href="#book" class="mt-8 block w-full bg-brand-accent hover:bg-brand-accentHover text-white font-bold py-3 px-4 rounded-xl text-center transition shadow-lg shadow-brand-accent/20">Get Started</a>
+            </div>
+            <!-- Tier 3 -->
+            <div class="p-8 bg-brand-surface rounded-2xl border border-gray-800 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold uppercase tracking-wider text-gray-400 mb-2">Scale</h3>
+                    <div class="text-4xl font-black mb-4">Contact Us</div>
+                    <p class="text-sm text-brand-textMuted mb-6">Fully integrated team management. We become your internal media department.</p>
+                    <ul class="space-y-3 text-sm border-t border-gray-800 pt-6">
+                        <li class="flex items-center gap-2 text-gray-300">✓ 12+ Videos / Month</li>
+                        <li class="flex items-center gap-2 text-gray-300">✓ Comprehensive Script-to-Upload System</li>
+                        <li class="flex items-center gap-2 text-gray-300">✓ Unlimited Revisions & Fast Sprints</li>
+                        <li class="flex items-center gap-2 text-gray-300">✓ Strategy Consulting & Keyword Analysis</li>
+                        <li class="flex items-center gap-2 text-gray-300">✓ Direct Slack Channel Sync</li>
+                    </ul>
+                </div>
+                <a href="#book" class="mt-8 block w-full bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-xl text-center transition">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Close/Booking Section -->
+    <section id="book" class="py-24 bg-brand-surface border-t border-gray-900 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">Ready to Scale Your Channel?</h2>
+            <p class="text-brand-textMuted mb-12 max-w-xl mx-auto">Book a free 15-minute discovery call to dissect your channel analytics structure and verify if we're a match.</p>
+            
+            <!-- Booking Card / Embed Wrapper -->
+            <div class="bg-brand-dark p-8 md:p-12 rounded-3xl border border-gray-800 text-left max-w-2xl mx-auto shadow-xl">
+                <!-- 
+                     PRO TIP: To use real Calendly or Cal.com scheduling here, 
+                     simply clear out this placeholder text block and paste 
+                     your inline embed code directly inside this div.
+                -->
+                <div class="text-center py-12 border-2 border-dashed border-gray-800 rounded-2xl">
+                    <p class="text-sm text-gray-400 mb-4">[ Paste Your Inline Booking Embed Code Here ]</p>
+                    <p class="text-xs text-gray-600 max-w-sm mx-auto">Compatible with standard Calendly Responsive Inline HTML or Cal.com JavaScript iframe embedding scripts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-gray-950 px-6 text-center text-xs text-gray-600">
+        <p>&copy; 2026 Echelonix Agency. All rights reserved. Retention-Obsessed Production Systems.</p>
+    </footer>
+
+</body>
+</html>
